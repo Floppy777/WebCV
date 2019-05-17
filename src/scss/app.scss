@@ -1,7 +1,10 @@
 
 @import 'colors';
+@import "navbar";
 @import 'information-card';
 @import 'skill-card';
 @import "bootstrap/bootstrap";
 
-
+body {
+  background-color: $BackgroundColor;
+}

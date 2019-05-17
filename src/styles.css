@@ -1,23 +1,69 @@
 @charset "UTF-8";
+.resume-navbar {
+  display: none;
+  flex-direction: column;
+  z-index: 9999;
+  width: 200px;
+  height: 100%;
+  background-color: #0487CC;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+}
+.resume-navbar .navbar-element {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .information-card {
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
-  background-color: blue;
   border: solid 1px red;
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .information-card .image {
   width: 100%;
-  max-height: 400px;
-  max-width: 400px;
   box-shadow: 2px 2px 2px 2px lightgrey;
 }
-.information-card .download-button {
+.information-card .download-resume {
+  padding: 17px 5px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: solid 1px black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #757575;
+  font-size: 16px;
 }
+.information-card .download-resume:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3), 0 0 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.information-card .download-resume .text-download {
+  margin-left: 6px;
+}
+.information-card .title {
+  text-transform: uppercase;
+  color: #0487CC;
+}
+.information-card .subtitle {
+  color: #757575;
+}
+.information-card .resume {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+  text-align: justify;
+  text-justify: auto;
+  font-family: "PT Sans Narrow";
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9673,6 +9719,9 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+body {
+  background-color: #efefef;
 }
 
 /*# sourceMappingURL=styles.css.map */
