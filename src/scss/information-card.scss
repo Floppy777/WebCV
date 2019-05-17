@@ -54,9 +54,24 @@
     text-align: justify;
     text-justify:  auto;
     font-family: "PT Sans Narrow";
-
-
   }
+
+  .info-container {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: "PT Sans Narrow";
+
+    .title-info {
+      color: $textColorGrey;
+      backgroud-color: yellow;
+    }
+
+    info{
+
+    }
+  }
+
 
 
 
