@@ -1,0 +1,36 @@
+@import 'colors';
+
+.skill-card {
+
+  font-family: "PT Sans Narrow";
+  padding: 30px;
+  box-shadow: 3px 2px 2px 2px lightgrey;
+  background-color: $whiteColor;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  h3 {
+
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    padding: 18px 28px;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+    background-color: $textColorName;
+    color: $whiteColor;
+  }
+
+  .skill {
+
+    margin-bottom: 20px;
+
+    .skill-title {
+
+    }
+
+    .skill-content {
+
+    }
+  }
+
+}

@@ -2,17 +2,16 @@
 
 .information-card {
 
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  border: solid 1px red;
+  padding: 30px;
+  box-shadow: 3px 2px 2px 2px lightgrey;
   background-color: white;
   margin-top: 60px;
   margin-bottom: 60px;
 
   .image {
     width: 100%;
+    max-height: 400px;
+    max-height: 400px;
     box-shadow: 2px 2px 2px 2px lightgrey;
   }
 
@@ -34,8 +33,6 @@
     .text-download {
       margin-left: 6px;
     }
-
-
   }
 
   .title{
